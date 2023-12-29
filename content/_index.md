@@ -61,7 +61,11 @@ sections:
     content:
       title: Teaching
       subtitle: Current Teaching Assistance in Tilburg University
-    text: Ciao
+      text: >
+        Here are the courses I currently teach:
+          - Econometrics (B.Sc. in Economics), 2022 - Present.
+          - Microeconomics: Markets and Games (B.Sc. Entrepreneurship and Business Innovation), 2022 - 2023.
+          - Skills: Visualizing Data & Writing for Policy Makers (B.Sc. in Economics), 2022 - 2023.
     design:
       columns: '2'
       view: compact
