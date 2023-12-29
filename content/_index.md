@@ -43,9 +43,9 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
   - block: portfolio
-    id: projects
+    id: Research
     content:
-      title: Projects
+      title: Research
       filters:
         folders:
           - project
@@ -56,13 +56,15 @@ sections:
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
-  - block: collection
-    id: talks
+  - block: markdown
+    id: Teaching
     content:
       title: Teaching
-      filters:
-        folders:
-          - event
+      ### Current Teaching Assistance - Tilburg University
+
+- Econometrics (B.Sc. in Economics), 2022 - Present.
+- Microeconomics: Markets and Games (B.Sc. Entrepreneurship and Business Innovation), 2022 - 2023.
+- Skills: Visualizing Data & Writing for Policy Makers (B.Sc. in Economics), 2022 - 2023
     design:
       columns: '2'
       view: compact
