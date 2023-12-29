@@ -10,7 +10,7 @@ sections:
     content:
       title: Hugo Academic Theme
       image:
-        filename: hero-academic.png
+        filename: avatar.jpg
       cta:
         label: '**Get Started**'
         url: https://hugoblox.com/templates/
@@ -66,11 +66,6 @@ sections:
     design:
       columns: '2'
       view: compact
-  - block: tag_cloud
-    content:
-      title: Popular Topics
-    design:
-      columns: '2'
   - block: contact
     id: contact
     content:
