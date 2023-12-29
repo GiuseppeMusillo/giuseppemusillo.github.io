@@ -45,7 +45,7 @@ sections:
   - block: portfolio
     id: research
     content:
-      title: research
+      title: Research
       filters:
         folders:
           - research
@@ -59,9 +59,11 @@ sections:
   - block: markdown
     id: teaching
     content:
-      title: Section 2
-      subtitle: A subtitle
-      text: Add your Section 2 content here...
+      title: Teaching
+      subtitle: Current Teaching Assistance - Tilburg University
+      text: - Econometrics (B.Sc. in Economics), 2022 - Present.
+    - Microeconomics: Markets and Games (B.Sc. Entrepreneurship and Business Innovation), 2022 - 2023.
+    - Skills: Visualizing Data & Writing for Policy Makers (B.Sc. in Economics), 2022 - 2023
     design:
       columns: '2'
       view: compact
