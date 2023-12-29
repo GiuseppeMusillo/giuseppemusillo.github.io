@@ -13,7 +13,7 @@ image:
 
 links:
 url_code: ''
-url_pdf: 'content/static/uploads/Superman_WorkingPaper.pdf'
+url_pdf: 'static/uploads/Superman_WorkingPaper.pdf'
 url_slides: ''
 url_video: ''
 
@@ -22,7 +22,7 @@ url_video: ''
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: example
+slides: ""
 ---
 
 with A. Armand, P. Atwell, J.F. Gomes, and Y. Schenk
