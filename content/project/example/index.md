@@ -13,7 +13,7 @@ image:
 
 links:
 url_code: ''
-url_pdf: 'static/uploads/Superman_WorkingPaper.pdf'
+url_pdf: 'uploads/Superman_WorkingPaper.pdf'
 url_slides: ''
 url_video: ''
 
