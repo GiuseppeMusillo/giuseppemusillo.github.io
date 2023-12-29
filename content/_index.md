@@ -61,9 +61,6 @@ sections:
     content:
       title: Teaching
       subtitle: Current Teaching Assistance in Tilburg University
-      text: Econometrics (B.Sc. in Economics), 2022 to Present
-      text: Microeconomics: Markets and Games (B.Sc. Entrepreneurship and Business Innovation), 2022 to 2023
-      text: Skills: Visualizing Data & Writing for Policy Makers (B.Sc. in Economics), 2022 to 2023
     design:
       columns: '2'
       view: compact
