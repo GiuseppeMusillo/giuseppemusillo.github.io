@@ -22,9 +22,10 @@ bio: I am an Applied Microeconomist interested in Political Economy, Economic Hi
 
 # Interests to show in About widget
 interests:
+  - Applied Microeconomics
   - Political Economy
-  - Economic History
   - Media Economics
+  - Economic History
 
 # Education to show in About widget
 education:
@@ -63,6 +64,6 @@ social:
 highlight_name: true
 ---
 
-I am a PhD Candidate in Economics at Tilburg University. I am an Applied Microeconomist interested in Political Economy, Economic History, and Media Economics. I am supervised by [David Schindler](https://david-schindler.de/) and [Mery Ferrando](https://meryferrando.com/)
+I am a PhD Candidate in Economics at Tilburg University. I am an Applied Microeconomist interested in Political Economy, Economic History, and Media Economics. My supervisors are [David Schindler](https://david-schindler.de/) and [Mery Ferrando](https://meryferrando.com/)
   
 {style="text-align: justify;"}
