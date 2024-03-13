@@ -58,7 +58,7 @@ social:
     link: https://github.com/GiuseppeMusillo
   - icon: cv
     icon_pack: ai
-    link: uploads/CVMusillo.pdf
+    link: uploads/CV_Musillo.pdf
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
