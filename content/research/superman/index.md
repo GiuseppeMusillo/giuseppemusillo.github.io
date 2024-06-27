@@ -2,7 +2,7 @@
 title: It's a Bird, it's a Plane, it's Superman! Using Mass Media to Fight Intolerance
 summary: with A. Armand, P. Atwell, J.F. Gomes, and Y. Schenk.
 tags:
-date: '2023-12-27T00:00:00Z'
+date: '2024-06-27T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
