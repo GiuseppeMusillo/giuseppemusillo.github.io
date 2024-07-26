@@ -1,5 +1,5 @@
 ---
-title: Broadcasting Equality: Media Narratives and the Rise of Civil Rights
+title: Broadcasting Equality`:' Media Narratives and the Rise of Civil Rights
 summary: with A. Armand, P. Atwell, J.F. Gomes, and Y. Schenk.
 tags:
 date: '2024-07-26T00:00:00Z'
@@ -29,7 +29,7 @@ with A. Armand, P. Atwell, J.F. Gomes, and Y. Schenk
 
 We document the influence of media narratives in counteracting racial prejudice by exploring the
 emergence of socially inclusive narratives in post-WWII U.S. media. We exploit an unprecedented
-experiment that created exogenous exposure to these narratives: in 1946, amid widespread racial divisions,
+experiment that created exogenous exposure to these narratives`:' in 1946, amid widespread racial divisions,
 the popular children’s radio series The Adventures of Superman suddenly decided to promote
 equality by reframing its fictional stories. We find that exposure to these narratives significantly contributed
 to the advancement of civil rights in subsequent decades. Specifically, we uncover increased
