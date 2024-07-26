@@ -1,5 +1,5 @@
 ---
-title: Broadcasting Equality`:' Media Narratives and the Rise of Civil Rights
+title: Broadcasting Equality: Media Narratives and the Rise of Civil Rights
 summary: with A. Armand, P. Atwell, J.F. Gomes, and Y. Schenk.
 tags:
 date: '2024-07-26T00:00:00Z'
