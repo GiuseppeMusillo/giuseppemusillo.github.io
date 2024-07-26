@@ -1,8 +1,8 @@
 ---
-title: It's a Bird, it's a Plane, it's Superman! Using Mass Media to Fight Intolerance
+title: Broadcasting Equality: Media Narratives and the Rise of Civil Rights
 summary: with A. Armand, P. Atwell, J.F. Gomes, and Y. Schenk.
 tags:
-date: '2024-06-27T00:00:00Z'
+date: '2024-07-26T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
@@ -27,18 +27,11 @@ slides: ""
 
 with A. Armand, P. Atwell, J.F. Gomes, and Y. Schenk
 
-This paper investigates the role of mass media in shaping racial tolerance and advancing civil
-rights in the post-WWII United States. We study the first attempt in the history of mass media to
-use a radio broadcast targeted at children to promote an inclusive American society. In 1946, amid
-persistent racial divisions, the popular radio series The Adventures of Superman launched Operation
-Intolerance, a sequence of new episodes promoting equality, rejecting racial discrimination, and
-exposing the KKK’s bigotry. Using digitized historical data on U.S. radio stations and state-ofthe-art radio propagation models, we compute geographic exposure to the broadcasts. Exploiting
-exogenous exposure to the broadcasts, we employ a cohort study design to analyze individual-level
-data from 1964 to 1980–a crucial period for civil rights activism and legislation in the United States.
-We find lasting impacts on those exposed as children, including increased support for civil rights,
-improved interracial relations, and more progressive political attitudes. These effects translate into
-greater alignment with the Civil Rights Movement, evidenced by increased support for protests and
-diminished institutional trust, and further manifested by reduced participation in the Vietnam War.
-Additionally, county-level panel data illustrate how areas covered by the broadcast in 1946 evolve
-towards less segregationist attitudes, a lower presence of the KKK, and an increase in civil rights
-activism and prominence in discourse.
+We document the influence of media narratives in counteracting racial prejudice by exploring the
+emergence of socially inclusive narratives in post-WWII U.S. media. We exploit an unprecedented
+experiment that created exogenous exposure to these narratives: in 1946, amid widespread racial divisions,
+the popular children’s radio series The Adventures of Superman suddenly decided to promote
+equality by reframing its fictional stories. We find that exposure to these narratives significantly contributed
+to the advancement of civil rights in subsequent decades. Specifically, we uncover increased
+support for civil rights and civil rights organizations, deeper racial assimilation, and more progressive
+political positions.
