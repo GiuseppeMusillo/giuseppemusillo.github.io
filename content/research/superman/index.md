@@ -11,6 +11,8 @@ image:
 links:
   - name: VoxEU
     url: 'https://cepr.org/voxeu/columns/media-narratives-racial-equality-how-superman-helped-pave-ground-civil-rights'
+  - name: CEPR Discussion Paper
+    url: 'https://cepr.org/publications/dp18207'
 url_code: ''
 url_pdf: 'uploads/Superman_WorkingPaper.pdf'
 url_slides: ''
