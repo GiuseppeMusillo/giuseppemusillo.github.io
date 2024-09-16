@@ -3,21 +3,18 @@ title: "Broadcasting Equality: Media Narratives and the Rise of Civil Rights"
 summary: with A. Armand, P. Atwell, J.F. Gomes, and Y. Schenk.
 tags:
 date: '2024-07-26T00:00:00Z'
-
 # Optional external URL for project (replaces project detail page).
 external_link: ''
-
 image:
   caption: 
   focal_point: Smart
-
 links:
+  - name: VoxEU
+    url: 'https://cepr.org/voxeu/columns/media-narratives-racial-equality-how-superman-helped-pave-ground-civil-rights'
 url_code: ''
 url_pdf: 'uploads/Superman_WorkingPaper.pdf'
 url_slides: ''
 url_video: ''
-url_vox: 'https://cepr.org/voxeu/columns/media-narratives-racial-equality-how-superman-helped-pave-ground-civil-rights'
-
 # Slides (optional).
 #   Associate this project with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
@@ -25,7 +22,6 @@ url_vox: 'https://cepr.org/voxeu/columns/media-narratives-racial-equality-how-su
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-
 with A. Armand, P. Atwell, J.F. Gomes, and Y. Schenk
 
 We document the influence of media narratives in counteracting racial prejudice by exploring the
