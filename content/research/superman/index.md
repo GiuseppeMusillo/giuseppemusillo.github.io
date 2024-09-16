@@ -16,6 +16,7 @@ url_code: ''
 url_pdf: 'uploads/Superman_WorkingPaper.pdf'
 url_slides: ''
 url_video: ''
+url_vox: 'https://cepr-org/voxeu/columns/media-narratives-racial-equality-how-superman-helped-pave-ground-civil-rights](https://cepr.org/voxeu/columns/media-narratives-racial-equality-how-superman-helped-pave-ground-civil-rights'
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
