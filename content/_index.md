@@ -56,13 +56,27 @@ sections:
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
+    - block: portfolio
+    id: WP
+    content:
+      title: Work in Progress
+      filters:
+        folders:
+          - Work in Progress
+      # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
+    design:
+      # Choose how many columns the section has. Valid values: '1' or '2'.
+      columns: '1'
+      view: showcase
+      # For Showcase view, flip alternate rows?
+      flip_alt_rows: false
   - block: markdown
     id: teaching
     content:
       title: Teaching
       subtitle: Teaching Assistant at Tilburg University 
       text: >
-        Here are the courses I currently teach:
+        Here are the courses I have taught:
           - Public Sector Economics (B.Sc. in Economics), 2024 - Present.
           - Econometrics (B.Sc. in Economics), 2022 - Present.
           - Microeconomics: Markets and Games (B.Sc. Entrepreneurship and Business Innovation), 2022 - 2023.
