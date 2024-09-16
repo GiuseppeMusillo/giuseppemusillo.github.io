@@ -62,7 +62,7 @@ sections:
       title: Work in Progress
       filters:
         folders:
-          - Work in Progress
+          - WP
       # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
