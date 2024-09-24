@@ -15,7 +15,7 @@ role: PhD Candidate in Economics
 # Organizations/Affiliations to show in About widget
 organizations:
   - name: Tilburg University
-    url: https://www.tilburguniversity.edu/
+    url: https://www.tilburguniversity.edu/about/schools/economics-and-management/organization/departments/economics
 
 # Short bio (displayed in user profile at end of posts)
 bio: I am an Applied Microeconomist interested in Political Economy, Economic History, and Media Economics.
@@ -56,6 +56,9 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/GiuseppeMusillo
+  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
+    icon_pack: fas
+    link: https://scholar.google.com/citations?user=peCaHWMAAAAJ 
   - icon: cv
     icon_pack: ai
     link: uploads/CV_Musillo.pdf
