@@ -58,7 +58,7 @@ social:
     link: https://github.com/GiuseppeMusillo
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
-    link: https://scholar.google.com/citations?user=peCaHWMAAAAJ
+    link: https://scholar.google.com/citations?user=LAtAji0AAAAJ&hl=en&authuser=1
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/giuseppe-musillo-7b3983142/
