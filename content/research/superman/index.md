@@ -1,6 +1,12 @@
 ---
 title: "Broadcasting Equality: Media Narratives and the Rise of Civil Rights"
-summary: with A. Armand, P. Atwell, J.F. Gomes, and Y. Schenk.
+authors:
+- A. Armand
+- P. Atwell
+- J.F. Gomes
+- admin
+- Y. Schenk
+summary:
 tags:
 date: '2024-07-26T00:00:00Z'
 # Optional external URL for project (replaces project detail page).
@@ -24,8 +30,6 @@ url_video: ''
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-with A. Armand, P. Atwell, J.F. Gomes, and Y. Schenk
-
 We document the influence of media narratives in counteracting racial prejudice by exploring the
 emergence of socially inclusive narratives in post-WWII U.S. media. We exploit an unprecedented
 experiment that created exogenous exposure to these narratives: in 1946, amid widespread racial divisions,
