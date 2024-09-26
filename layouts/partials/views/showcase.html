@@ -1,22 +1,7 @@
-{{ $item := .item }}
-{{ $link := $item.RelPermalink }}
-{{ $target := "" }}
-{{ if $item.Params.external_link }}
-  {{ $link = $item.Params.external_link }}
-  {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
-{{ end }}
-<div class="card-simple view-showcase" style="width: 100%; max-width: 540px; margin: 0 auto;">
-  {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
-  {{ with $resource }}
-    {{ $image := .Resize "400x webp" }}
-    <a href="{{ $link }}" {{ $target }} aria-label="{{ $item.Title }}" style="display: flex; justify-content: center; align-items: center; height: 200px; overflow: hidden;">
-      <img src="{{ $image.RelPermalink }}" alt="{{ $item.Title }}" width="{{ $image.Width }}" height="{{ $image.Height }}"
-           class="article-banner" loading="lazy" style="max-width: 100%; max-height: 100%; object-fit: contain;">
-    </a>
-  {{ end }}
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="{{ $link }}" {{ $target }}>{{ $item.Title }}</a>
-  </div>
+{{ $item := . }}
+<div class="article-container pt-3">
+  <h1>{{ $item.Title }}</h1>
+
   {{ with $item.Params.authors }}
   <div class="article-metadata">
     <strong>Authors:</strong>
@@ -35,53 +20,18 @@
     {{ end }}
   </div>
   {{ end }}
-  {{ if ne $item.RelPermalink "/" }}
-    {{ with $item.Params.abstract }}
-      <div class="article-abstract" style="margin-top: 1rem;">
-        <h3>Abstract</h3>
-        <p>{{ . | markdownify }}</p>
-      </div>
-    {{ end }}
+
+  {{ with $item.Params.abstract }}
+    <div class="article-abstract mt-3">
+      <h3>Abstract</h3>
+      <p>{{ . | markdownify }}</p>
+    </div>
   {{ end }}
-  <div class="btn-links">
+
+  <div class="btn-links mt-3">
     {{ if $item.Params.url_pdf }}
       <a class="btn btn-outline-primary btn-page-header btn-sm" href="{{ $item.Params.url_pdf }}" target="_blank" rel="noopener">
         PDF
-      </a>
-    {{ end }}
-    {{ if $item.Params.url_code }}
-      <a class="btn btn-outline-primary btn-page-header btn-sm" href="{{ $item.Params.url_code }}" target="_blank" rel="noopener">
-        Code
-      </a>
-    {{ end }}
-    {{ if $item.Params.url_dataset }}
-      <a class="btn btn-outline-primary btn-page-header btn-sm" href="{{ $item.Params.url_dataset }}" target="_blank" rel="noopener">
-        Dataset
-      </a>
-    {{ end }}
-    {{ if $item.Params.url_poster }}
-      <a class="btn btn-outline-primary btn-page-header btn-sm" href="{{ $item.Params.url_poster }}" target="_blank" rel="noopener">
-        Poster
-      </a>
-    {{ end }}
-    {{ if $item.Params.url_project }}
-      <a class="btn btn-outline-primary btn-page-header btn-sm" href="{{ $item.Params.url_project }}" target="_blank" rel="noopener">
-        Project
-      </a>
-    {{ end }}
-    {{ if $item.Params.url_slides }}
-      <a class="btn btn-outline-primary btn-page-header btn-sm" href="{{ $item.Params.url_slides }}" target="_blank" rel="noopener">
-        Slides
-      </a>
-    {{ end }}
-    {{ if $item.Params.url_source }}
-      <a class="btn btn-outline-primary btn-page-header btn-sm" href="{{ $item.Params.url_source }}" target="_blank" rel="noopener">
-        Source
-      </a>
-    {{ end }}
-    {{ if $item.Params.url_video }}
-      <a class="btn btn-outline-primary btn-page-header btn-sm" href="{{ $item.Params.url_video }}" target="_blank" rel="noopener">
-        Video
       </a>
     {{ end }}
     {{ range $item.Params.links }}
