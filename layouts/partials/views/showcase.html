@@ -35,17 +35,17 @@
     {{ end }}
   </div>
   {{ end }}
-  {{ if .show_summary }}
-    {{ if $item.Params.summary }}
-      <p class="article-summary">
-        {{ $item.Params.summary | truncate 250 | plainify | emojify }}
-      </p>
-    {{ else if $item.Summary }}
-      <p class="article-summary">
-        {{ $item.Summary | truncate 250 | plainify | emojify }}
-      </p>
-    {{ end }}
+{{ if not .is_list }}
+  {{ if $item.Params.summary }}
+    <div class="article-summary" style="margin-top: 1rem;">
+      {{ $item.Params.summary | markdownify }}
+    </div>
+  {{ else if $item.Summary }}
+    <div class="article-summary" style="margin-top: 1rem;">
+      {{ $item.Summary | markdownify }}
+    </div>
   {{ end }}
+{{ end }}
   <div class="btn-links">
     {{ if $item.Params.url_pdf }}
       <a class="btn btn-outline-primary btn-page-header btn-sm" href="{{ $item.Params.url_pdf }}" target="_blank" rel="noopener">
