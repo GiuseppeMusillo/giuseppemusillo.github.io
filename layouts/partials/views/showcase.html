@@ -9,7 +9,6 @@
 
 <div class="card-simple view-showcase">
 
-  {{ if .show_logo }}
   {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
   {{ with $resource }}
     {{ $image := .Resize "540x webp" }}
@@ -17,7 +16,6 @@
       <img src="{{ $image.RelPermalink }}" alt="{{ $item.Title }}" width="{{ $image.Width }}" height="{{ $image.Height }}"
            class="article-banner" loading="lazy">
     </a>
-  {{ end }}
   {{ end }}
 
   <div class="section-subheading article-title mb-1 mt-3">
@@ -29,7 +27,11 @@
     <strong>Authors:</strong>
     {{ range $index, $author := . }}
       {{ if $index }}, {{ end }}
-      {{- $author -}}
+      {{- if eq $author "admin" -}}
+        Giuseppe Musillo
+      {{- else -}}
+        {{- $author -}}
+      {{- end -}}
     {{ end }}
   </div>
   {{ end }}
