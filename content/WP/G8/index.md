@@ -1,5 +1,5 @@
 ---
-title: "State Repression and Social Capital: Evidence from Genoa G8"
+title: "State Repression and Social Capital: Evidence from Genova 2001"
 authors:
 - Francesco Capozza
 - Matteo Giugovaz
