@@ -11,10 +11,10 @@
 
   {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
   {{ with $resource }}
-    {{ $image := .Resize "540x webp" }}
+    {{ $image := .Resize "300x webp" }}
     <a href="{{ $link }}" {{ $target }} aria-label="{{ $item.Title }}">
       <img src="{{ $image.RelPermalink }}" alt="{{ $item.Title }}" width="{{ $image.Width }}" height="{{ $image.Height }}"
-           class="article-banner" loading="lazy">
+           class="article-banner" loading="lazy" style="max-width: 100%; height: auto;">
     </a>
   {{ end }}
 
@@ -28,7 +28,7 @@
     {{ range $index, $author := . }}
       {{ if $index }}, {{ end }}
       {{- if eq $author "admin" -}}
-        Giuseppe Musillo
+        G. Musillo
       {{- else -}}
         {{- $author -}}
       {{- end -}}
