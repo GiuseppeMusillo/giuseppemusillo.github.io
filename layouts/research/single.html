@@ -1,0 +1,13 @@
+{{ define "main" }}
+
+<article class="article">
+  {{ partial "page_header" . }}
+  <div class="article-container">
+    <div class="article-style">
+      {{ partial "views/showcase" . }}
+    </div>
+    {{ partial "page_footer" . }}
+  </div>
+</article>
+
+{{ end }}
