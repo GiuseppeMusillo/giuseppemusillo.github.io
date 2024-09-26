@@ -1,0 +1,16 @@
+{{ define "main" }}
+<div class="universal-wrapper pt-3">
+  <h1>{{ .Title }}</h1>
+
+  {{ with .Content }}
+  <div class="article-style">{{ . }}</div>
+  {{ end }}
+
+  {{ $paginator := .Paginate .Data.Pages }}
+  {{ range $paginator.Pages }}
+    {{ partial "views/showcase_list" (dict "item" . "view" "compact") }}
+  {{ end }}
+
+  {{ partial "pagination" . }}
+</div>
+{{ end }}
