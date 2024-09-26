@@ -35,7 +35,7 @@
     {{ end }}
   </div>
   {{ end }}
-  {{ if not .is_list }}
+  {{ if ne $item.RelPermalink "/" }}
     {{ with $item.Params.abstract }}
       <div class="article-abstract" style="margin-top: 1rem;">
         <h3>Abstract</h3>
