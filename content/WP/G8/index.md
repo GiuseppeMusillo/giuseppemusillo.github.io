@@ -1,5 +1,9 @@
 ---
 title: "State Repression and Social Capital: Evidence from Genoa G8"
+authors:
+- Francesco Capozza
+- Matteo Giugovaz
+- admin
 summary: with F. Capozza and  M. Giugovaz
 tags:
 date: '2024-09-16T00:00:00Z'
