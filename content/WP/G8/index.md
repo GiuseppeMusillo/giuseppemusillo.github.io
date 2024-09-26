@@ -4,7 +4,7 @@ authors:
 - Francesco Capozza
 - Matteo Giugovaz
 - admin
-summary: with F. Capozza and  M. Giugovaz
+summary: F. Capozza and  M. Giugovaz
 tags:
 date: '2024-09-16T00:00:00Z'
 
