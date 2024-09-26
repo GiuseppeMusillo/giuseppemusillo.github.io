@@ -7,14 +7,14 @@
   {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
 {{ end }}
 
-<div class="card-simple view-showcase">
+<div class="card-simple view-showcase" style="width: 100%; max-width: 540px; margin: 0 auto;">
 
   {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
   {{ with $resource }}
-    {{ $image := .Resize "300x webp" }}
+    {{ $image := .Resize "540x webp" }}
     <a href="{{ $link }}" {{ $target }} aria-label="{{ $item.Title }}">
       <img src="{{ $image.RelPermalink }}" alt="{{ $item.Title }}" width="{{ $image.Width }}" height="{{ $image.Height }}"
-           class="article-banner" loading="lazy" style="max-width: 30%; height: auto;">
+           class="article-banner" loading="lazy" style="width: 100%; height: 200px; object-fit: cover;">
     </a>
   {{ end }}
 
@@ -28,7 +28,7 @@
     {{ range $index, $author := . }}
       {{ if $index }}, {{ end }}
       {{- if eq $author "admin" -}}
-        G. Musillo
+        Giuseppe Musillo
       {{- else -}}
         {{- $author -}}
       {{- end -}}
@@ -48,9 +48,13 @@
     {{ end }}
   {{ end }}
 
-  {{ if .show_buttons }}
+  {{ if $item.Params.links }}
     <div class="btn-links">
-      {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+      {{ range $item.Params.links }}
+        <a class="btn btn-outline-primary btn-page-header btn-sm" href="{{ .url }}" target="_blank" rel="noopener">
+          {{ .name }}
+        </a>
+      {{ end }}
     </div>
   {{ end }}
 
