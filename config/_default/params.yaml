@@ -99,6 +99,9 @@ features:
     provider: 'mapnik'
     api_key: ''
     zoom: 15
+  portfolio:
+    view_params:
+      show_authors: true
 
 # Extensions
 
