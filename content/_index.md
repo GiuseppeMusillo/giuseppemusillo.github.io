@@ -49,6 +49,13 @@ sections:
       filters:
         folders:
           - research
+    design:
+      columns: '1'
+      view: showcase
+      flip_alt_rows: false
+    params:
+      view_params:
+        show_authors: true
       # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
