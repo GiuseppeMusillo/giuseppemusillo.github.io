@@ -28,5 +28,3 @@ url_video: ''
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-
-with F. Capozza and  M. Giugovaz
