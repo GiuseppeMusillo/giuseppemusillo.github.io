@@ -1,11 +1,12 @@
 ---
 title: "Broadcasting Equality: Media Narratives and the Rise of Civil Rights"
 authors:
-- A. Armand
-- P. Atwell
-- J.F. Gomes
+- [David Schindler](https://david-schindler.de/)
+- [Alex Armand](http://www.alexarmand.org/)
+- [Paul Atwell](https://www.pa-surveys.xyz/)
+- [Joseph F. Gomes](https://sites.google.com/site/josephfgomes/Home)
 - admin
-- Y. Schenk
+- Yannik Schenk
 featured: false
 summary:
 tags:
