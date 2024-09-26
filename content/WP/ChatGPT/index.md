@@ -1,6 +1,11 @@
 ---
 title: "The Role of LLMs in Recruitment"
-summary: with K. Abbas Nejad, T. Wicker, and N. Zaccaria
+authors:
+- Kian Abbas Nejad
+- admin
+- Till Wicker
+- Niccolò Zaccaria
+summary: 
 tags:
 date: '2024-09-16T00:00:00Z'
 
@@ -25,4 +30,3 @@ url_video: ''
 slides: ""
 ---
 
-with K. Abbas Nejad, T. Wicker, and N. Zaccaria
