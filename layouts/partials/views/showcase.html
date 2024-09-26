@@ -14,7 +14,7 @@
     {{ $image := .Resize "300x webp" }}
     <a href="{{ $link }}" {{ $target }} aria-label="{{ $item.Title }}">
       <img src="{{ $image.RelPermalink }}" alt="{{ $item.Title }}" width="{{ $image.Width }}" height="{{ $image.Height }}"
-           class="article-banner" loading="lazy" style="max-width: 50%; height: auto;">
+           class="article-banner" loading="lazy" style="max-width: 30%; height: auto;">
     </a>
   {{ end }}
 
