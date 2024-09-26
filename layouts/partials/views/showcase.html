@@ -35,17 +35,14 @@
     {{ end }}
   </div>
   {{ end }}
-{{ if not .is_list }}
-  {{ if $item.Params.summary }}
-    <div class="article-summary" style="margin-top: 1rem;">
-      {{ $item.Params.summary | markdownify }}
-    </div>
-  {{ else if $item.Summary }}
-    <div class="article-summary" style="margin-top: 1rem;">
-      {{ $item.Summary | markdownify }}
-    </div>
+  {{ if not .is_list }}
+    {{ with $item.Params.abstract }}
+      <div class="article-abstract" style="margin-top: 1rem;">
+        <h3>Abstract</h3>
+        <p>{{ . | markdownify }}</p>
+      </div>
+    {{ end }}
   {{ end }}
-{{ end }}
   <div class="btn-links">
     {{ if $item.Params.url_pdf }}
       <a class="btn btn-outline-primary btn-page-header btn-sm" href="{{ $item.Params.url_pdf }}" target="_blank" rel="noopener">
