@@ -1,14 +1,11 @@
 ---
 title: "Broadcasting Equality: Media Narratives and the Rise of Civil Rights"
 authors:
-- name: Alex Armand
-  url: "http://www.alexarmand.org/"
-- name: Paul Atwell
-  url: "https://www.pa-surveys.xyz/"
-- name: Joseph F. Gomes
-  url: "https://sites.google.com/site/josephfgomes/Home"
-- name: admin
-- name: Yannik Schenk
+- Alex Armand
+- Paul Atwell
+- Joseph F. Gomes
+- admin
+- Yannik Schenk
 featured: false
 summary:
 tags:
@@ -34,3 +31,9 @@ url_video: ''
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
+We document the influence of media narratives in counteracting racial prejudice by exploring the
+emergence of socially inclusive narratives in post-WWII U.S. media. We exploit an unprecedented
+experiment that created exogenous exposure to these narratives: in 1946, amid widespread racial divisions, the popular children’s radio series The Adventures of Superman suddenly decided to promote
+equality by reframing its fictional stories. We find that exposure to these narratives significantly contributed to the advancement of civil rights in subsequent decades. Specifically, we uncover increased
+support for civil rights and civil rights organizations, deeper racial assimilation, and more progressive
+political positions.
