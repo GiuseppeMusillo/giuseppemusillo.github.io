@@ -1,5 +1,5 @@
 ---
-title: "Broadcasting Equality: Media Narratives and the Rise of Civil Rights"
+title: "Media Narratives and the Rise of Civil Rights"
 authors:
 - Alex Armand
 - Paul Atwell
@@ -8,9 +8,9 @@ authors:
 - Yannik Schenk
 featured: false
 abstract: ""
-summary: "We document the influence of media narratives in counteracting racial prejudice by exploring the emergence of socially inclusive narratives in post-WWII U.S. media. We exploit an unprecedented experiment that created exogenous exposure to these narratives: in 1946, amid widespread racial divisions, the popular children's radio series The Adventures of Superman suddenly decided to promote equality by reframing its fictional stories. We find that exposure to these narratives significantly contributed to the advancement of civil rights in subsequent decades. Specifically, we uncover increased support for civil rights and civil rights organizations, deeper racial assimilation, and more progressive political positions."
+summary: "We examine the power of media narratives to counter racial prejudice by analyzing the emergence of socially inclusive motifs in post-WWII U.S. media. We exploit an unprecedented natural experiment: in 1946, amid widespread and entrenched racial divisions, the popular children’s radio series The Adventures of Superman abruptly began promoting equality by reframing plots around progressive themes. This shift generated exogenous variation in exposure to progressive narratives across cohorts and locations. We find that exposure to these narratives significantly contributed to the advancement of civil rights in subsequent decades, increasing support for civil rights, pushing political preferences towards progressive positions, and reducing voting in favor of segregation. However, the effects on racial assimilation remain limited."
 tags: []
-date: '2024-07-26T00:00:00Z'
+date: '2025-04-17T00:00:00Z'
 external_link: ''
 image:
   caption: ''
@@ -29,4 +29,4 @@ slides: ""
 
 **Abstract**
 
-We document the influence of media narratives in counteracting racial prejudice by exploring the emergence of socially inclusive narratives in post-WWII U.S. media. We exploit an unprecedented experiment that created exogenous exposure to these narratives: in 1946, amid widespread racial divisions, the popular children's radio series The Adventures of Superman suddenly decided to promote equality by reframing its fictional stories. We find that exposure to these narratives significantly contributed to the advancement of civil rights in subsequent decades. Specifically, we uncover increased support for civil rights and civil rights organizations, deeper racial assimilation, and more progressive political positions.
+We examine the power of media narratives to counter racial prejudice by analyzing the emergence of socially inclusive motifs in post-WWII U.S. media. We exploit an unprecedented natural experiment: in 1946, amid widespread and entrenched racial divisions, the popular children’s radio series The Adventures of Superman abruptly began promoting equality by reframing plots around progressive themes. This shift generated exogenous variation in exposure to progressive narratives across cohorts and locations. We find that exposure to these narratives significantly contributed to the advancement of civil rights in subsequent decades, increasing support for civil rights, pushing political preferences towards progressive positions, and reducing voting in favor of segregation. However, the effects on racial assimilation remain limited.
