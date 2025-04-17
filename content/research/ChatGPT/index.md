@@ -17,6 +17,8 @@ image:
 links:
   - name: CentER Working Paper
     url: 'https://research.tilburguniversity.edu/en/publications/labor-market-signals-the-role-of-large-language-models'
+  - name: SSRN
+    url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5185035'
 url_code: ''
 url_pdf: 'uploads/Chat_GPT_AMWZ_Mar25.pdf'
 url_slides: ''
