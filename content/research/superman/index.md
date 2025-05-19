@@ -8,7 +8,8 @@ authors:
 - admin
 - Yannik Schenk
 featured: false
-abstract: ""
+abstract: "We examine the power of media narratives to counter racial prejudice by analyzing the emergence of socially inclusive motifs in post-WWII U.S. media. We exploit an unprecedented natural experiment: in 1946, amid widespread and entrenched racial divisions, the popular children’s radio series The Adventures of Superman abruptly began promoting equality by reframing plots around progressive themes. This shift generated exogenous variation in exposure to progressive narratives across cohorts and locations. We find that exposure to these narratives significantly contributed to the advancement of civil rights in subsequent decades, increasing support for civil rights, pushing political preferences towards progressive positions, and reducing voting in favor of segregation. However, the effects on racial assimilation remain limited.
+"
 summary: "We examine the power of media narratives to counter racial prejudice by analyzing the emergence of socially inclusive motifs in post-WWII U.S. media. We exploit an unprecedented natural experiment: in 1946, amid widespread and entrenched racial divisions, the popular children’s radio series The Adventures of Superman abruptly began promoting equality by reframing plots around progressive themes. This shift generated exogenous variation in exposure to progressive narratives across cohorts and locations. We find that exposure to these narratives significantly contributed to the advancement of civil rights in subsequent decades, increasing support for civil rights, pushing political preferences towards progressive positions, and reducing voting in favor of segregation. However, the effects on racial assimilation remain limited."
 tags: []
 date: '2025-04-17T00:00:00Z'
