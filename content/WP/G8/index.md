@@ -1,5 +1,5 @@
 ---
-title: "State Repression and Social Capital: Evidence from Genova 2001"
+title: "Law & Order and Social Capital"
 authors:
 - Francesco Capozza
 - Matteo Giugovaz
