@@ -5,104 +5,119 @@
   {{ $link = $item.Params.external_link }}
   {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
 {{ end }}
-<div class="card-simple view-showcase" style="width: 100%; max-width: 540px; margin: 0 auto;">
-  {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
-  {{ with $resource }}
-    {{ $image := .Resize "400x webp" }}
-    <a href="{{ $link }}" {{ $target }} aria-label="{{ $item.Title }}" style="display: flex; justify-content: center; align-items: center; height: 200px; overflow: hidden;">
-      <img src="{{ $image.RelPermalink }}" alt="{{ $item.Title }}" width="{{ $image.Width }}" height="{{ $image.Height }}"
-           class="article-banner" loading="lazy" style="max-width: 100%; max-height: 100%; object-fit: contain;">
-    </a>
-  {{ end }}
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="{{ $link }}" {{ $target }}>{{ $item.Title }}</a>
-  </div>
-  <!-- Add subtitle display here -->
-  {{ with $item.Params.subtitle }}
-  <div class="article-subtitle" style="font-style: italic; margin-top: 0.25rem; margin-bottom: 0.5rem;">
-    {{ . | markdownify }}
-  </div>
-  {{ end }}
-  {{ with $item.Params.authors }}
-  <div class="article-metadata">
-    <strong>Authors:</strong>
-    {{ range $index, $author := . }}
-      {{ if $index }}, {{ end }}
-      {{- if eq $author "admin" -}}
-        <a href="{{ site.BaseURL }}">Giuseppe Musillo</a>
-      {{- else -}}
-        {{- $authorURL := index site.Data.author_links $author -}}
-        {{- if $authorURL -}}
-          <a href="{{ $authorURL }}" target="_blank" rel="noopener">{{ $author }}</a>
-        {{- else -}}
-          {{ $author }}
-        {{- end -}}
-      {{- end -}}
+
+<!-- Responsive card with flexible width -->
+<div class="card-simple view-showcase" style="width: 100%; margin: 0 auto;">
+  <div class="row">
+    <!-- Left column for image (if available) -->
+    {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
+    {{ if $resource }}
+    <div class="col-md-4">
+      {{ $image := $resource.Resize "400x webp" }}
+      <a href="{{ $link }}" {{ $target }} aria-label="{{ $item.Title }}" style="display: flex; justify-content: center; align-items: center; height: 100%; overflow: hidden;">
+        <img src="{{ $image.RelPermalink }}" alt="{{ $item.Title }}" width="{{ $image.Width }}" height="{{ $image.Height }}"
+             class="article-banner" loading="lazy" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+      </a>
+    </div>
+    
+    <!-- Right column for content -->
+    <div class="col-md-8">
+    {{ else }}
+    <div class="col-md-12">
     {{ end }}
-  </div>
-  {{ end }}
-  
-  <!-- Add abstract toggle button and content -->
-  {{ with $item.Params.abstract }}
-  {{ $abstract_id := printf "abstract_%s" (replace $item.File.Path "/" "_") }}
-  <div style="margin-top: 0.75rem; margin-bottom: 0.75rem;">
-    <button id="btn_{{ $abstract_id }}" class="btn btn-outline-primary btn-sm" 
-            onclick="document.getElementById('{{ $abstract_id }}').style.display = (document.getElementById('{{ $abstract_id }}').style.display === 'none') ? 'block' : 'none'; this.textContent = (document.getElementById('{{ $abstract_id }}').style.display === 'none') ? 'Show Abstract' : 'Hide Abstract';">
-      Show Abstract
-    </button>
-    <div id="{{ $abstract_id }}" style="display: none; margin-top: 0.75rem;">
-      <div class="article-abstract">
-        <p>{{ . | markdownify }}</p>
+      <div class="section-subheading article-title mb-1 mt-3">
+        <a href="{{ $link }}" {{ $target }}>{{ $item.Title }}</a>
+      </div>
+      
+      <!-- Add subtitle display here -->
+      {{ with $item.Params.subtitle }}
+      <div class="article-subtitle" style="font-style: italic; margin-top: 0.25rem; margin-bottom: 0.5rem;">
+        {{ . | markdownify }}
+      </div>
+      {{ end }}
+      
+      {{ with $item.Params.authors }}
+      <div class="article-metadata">
+        <strong>Authors:</strong>
+        {{ range $index, $author := . }}
+          {{ if $index }}, {{ end }}
+          {{- if eq $author "admin" -}}
+            <a href="{{ site.BaseURL }}">Giuseppe Musillo</a>
+          {{- else -}}
+            {{- $authorURL := index site.Data.author_links $author -}}
+            {{- if $authorURL -}}
+              <a href="{{ $authorURL }}" target="_blank" rel="noopener">{{ $author }}</a>
+            {{- else -}}
+              {{ $author }}
+            {{- end -}}
+          {{- end -}}
+        {{ end }}
+      </div>
+      {{ end }}
+      
+      <!-- Add abstract toggle button and content -->
+      {{ with $item.Params.abstract }}
+      {{ $abstract_id := printf "abstract_%s" (replace $item.File.Path "/" "_") }}
+      <div style="margin-top: 0.75rem; margin-bottom: 0.75rem;">
+        <button id="btn_{{ $abstract_id }}" class="btn btn-outline-primary btn-sm" 
+                onclick="document.getElementById('{{ $abstract_id }}').style.display = (document.getElementById('{{ $abstract_id }}').style.display === 'none') ? 'block' : 'none'; this.textContent = (document.getElementById('{{ $abstract_id }}').style.display === 'none') ? 'Show Abstract' : 'Hide Abstract';">
+          Show Abstract
+        </button>
+        <div id="{{ $abstract_id }}" style="display: none; margin-top: 0.75rem;">
+          <div class="article-abstract">
+            <p>{{ . | markdownify }}</p>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+      
+      <div class="btn-links">
+        {{ if $item.Params.url_pdf }}
+          <a class="btn btn-outline-primary btn-page-header btn-sm" href="{{ $item.Params.url_pdf }}" target="_blank" rel="noopener">
+            PDF
+          </a>
+        {{ end }}
+        {{ if $item.Params.url_code }}
+          <a class="btn btn-outline-primary btn-page-header btn-sm" href="{{ $item.Params.url_code }}" target="_blank" rel="noopener">
+            Code
+          </a>
+        {{ end }}
+        {{ if $item.Params.url_dataset }}
+          <a class="btn btn-outline-primary btn-page-header btn-sm" href="{{ $item.Params.url_dataset }}" target="_blank" rel="noopener">
+            Dataset
+          </a>
+        {{ end }}
+        {{ if $item.Params.url_poster }}
+          <a class="btn btn-outline-primary btn-page-header btn-sm" href="{{ $item.Params.url_poster }}" target="_blank" rel="noopener">
+            Poster
+          </a>
+        {{ end }}
+        {{ if $item.Params.url_project }}
+          <a class="btn btn-outline-primary btn-page-header btn-sm" href="{{ $item.Params.url_project }}" target="_blank" rel="noopener">
+            Project
+          </a>
+        {{ end }}
+        {{ if $item.Params.url_slides }}
+          <a class="btn btn-outline-primary btn-page-header btn-sm" href="{{ $item.Params.url_slides }}" target="_blank" rel="noopener">
+            Slides
+          </a>
+        {{ end }}
+        {{ if $item.Params.url_source }}
+          <a class="btn btn-outline-primary btn-page-header btn-sm" href="{{ $item.Params.url_source }}" target="_blank" rel="noopener">
+            Source
+          </a>
+        {{ end }}
+        {{ if $item.Params.url_video }}
+          <a class="btn btn-outline-primary btn-page-header btn-sm" href="{{ $item.Params.url_video }}" target="_blank" rel="noopener">
+            Video
+          </a>
+        {{ end }}
+        {{ range $item.Params.links }}
+          <a class="btn btn-outline-primary btn-page-header btn-sm" href="{{ .url }}" target="_blank" rel="noopener">
+            {{ .name }}
+          </a>
+        {{ end }}
       </div>
     </div>
-  </div>
-  {{ end }}
-  
-  <div class="btn-links">
-    {{ if $item.Params.url_pdf }}
-      <a class="btn btn-outline-primary btn-page-header btn-sm" href="{{ $item.Params.url_pdf }}" target="_blank" rel="noopener">
-        PDF
-      </a>
-    {{ end }}
-    {{ if $item.Params.url_code }}
-      <a class="btn btn-outline-primary btn-page-header btn-sm" href="{{ $item.Params.url_code }}" target="_blank" rel="noopener">
-        Code
-      </a>
-    {{ end }}
-    {{ if $item.Params.url_dataset }}
-      <a class="btn btn-outline-primary btn-page-header btn-sm" href="{{ $item.Params.url_dataset }}" target="_blank" rel="noopener">
-        Dataset
-      </a>
-    {{ end }}
-    {{ if $item.Params.url_poster }}
-      <a class="btn btn-outline-primary btn-page-header btn-sm" href="{{ $item.Params.url_poster }}" target="_blank" rel="noopener">
-        Poster
-      </a>
-    {{ end }}
-    {{ if $item.Params.url_project }}
-      <a class="btn btn-outline-primary btn-page-header btn-sm" href="{{ $item.Params.url_project }}" target="_blank" rel="noopener">
-        Project
-      </a>
-    {{ end }}
-    {{ if $item.Params.url_slides }}
-      <a class="btn btn-outline-primary btn-page-header btn-sm" href="{{ $item.Params.url_slides }}" target="_blank" rel="noopener">
-        Slides
-      </a>
-    {{ end }}
-    {{ if $item.Params.url_source }}
-      <a class="btn btn-outline-primary btn-page-header btn-sm" href="{{ $item.Params.url_source }}" target="_blank" rel="noopener">
-        Source
-      </a>
-    {{ end }}
-    {{ if $item.Params.url_video }}
-      <a class="btn btn-outline-primary btn-page-header btn-sm" href="{{ $item.Params.url_video }}" target="_blank" rel="noopener">
-        Video
-      </a>
-    {{ end }}
-    {{ range $item.Params.links }}
-      <a class="btn btn-outline-primary btn-page-header btn-sm" href="{{ .url }}" target="_blank" rel="noopener">
-        {{ .name }}
-      </a>
-    {{ end }}
   </div>
 </div>
