@@ -17,6 +17,12 @@
   <div class="section-subheading article-title mb-1 mt-3">
     <a href="{{ $link }}" {{ $target }}>{{ $item.Title }}</a>
   </div>
+  <!-- Add subtitle display here -->
+  {{ with $item.Params.subtitle }}
+  <div class="article-subtitle" style="font-style: italic; margin-top: 0.25rem; margin-bottom: 0.5rem;">
+    {{ . | markdownify }}
+  </div>
+  {{ end }}
   {{ with $item.Params.authors }}
   <div class="article-metadata">
     <strong>Authors:</strong>
