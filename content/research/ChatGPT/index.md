@@ -1,5 +1,5 @@
 ---
-title: "Labor Market Signals: The Role of Large Language Models"
+title: "Labor Market Signals: The Role of Large Language Models (Revise and Resubmit, Journal of Labor Economics)"
 authors:
 - Kian Abbas Nejad
 - admin
