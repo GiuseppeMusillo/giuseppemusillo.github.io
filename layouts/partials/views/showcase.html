@@ -44,28 +44,17 @@
   
   <!-- Add abstract toggle button and content -->
   {{ with $item.Params.abstract }}
+  {{ $abstract_id := printf "abstract_%s" (replace $item.File.Path "/" "_") }}
   <div style="margin-top: 0.75rem; margin-bottom: 0.75rem;">
-    <button onclick="toggleAbstract_{{ $item.File.UniqueID }}" class="btn btn-outline-primary btn-sm">
+    <button id="btn_{{ $abstract_id }}" class="btn btn-outline-primary btn-sm" 
+            onclick="document.getElementById('{{ $abstract_id }}').style.display = (document.getElementById('{{ $abstract_id }}').style.display === 'none') ? 'block' : 'none'; this.textContent = (document.getElementById('{{ $abstract_id }}').style.display === 'none') ? 'Show Abstract' : 'Hide Abstract';">
       Show Abstract
     </button>
-    <div id="abstract_{{ $item.File.UniqueID }}" style="display: none; margin-top: 0.75rem;">
+    <div id="{{ $abstract_id }}" style="display: none; margin-top: 0.75rem;">
       <div class="article-abstract">
         <p>{{ . | markdownify }}</p>
       </div>
     </div>
-    <script>
-      function toggleAbstract_{{ $item.File.UniqueID }}() {
-        var abstract = document.getElementById("abstract_{{ $item.File.UniqueID }}");
-        var button = event.target;
-        if (abstract.style.display === "none") {
-          abstract.style.display = "block";
-          button.textContent = "Hide Abstract";
-        } else {
-          abstract.style.display = "none";
-          button.textContent = "Show Abstract";
-        }
-      }
-    </script>
   </div>
   {{ end }}
   
