@@ -1,5 +1,5 @@
 ---
-title: "Media Narratives and the Rise of Civil Rights"
+title: "Media Narratives and the Rise of Civil Rights (Submitted)"
 authors:
 - Alex Armand
 - Paul Atwell
