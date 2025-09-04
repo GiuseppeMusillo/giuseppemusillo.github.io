@@ -70,6 +70,6 @@ social:
 highlight_name: true
 ---
 
-I am a PhD Candidate in Economics at Tilburg University. I am an Applied Microeconomist interested in Political Economy, Economic History, and Media Economics. My supervisors are [David Schindler](https://david-schindler.de/) and [Mery Ferrando](https://meryferrando.com/)
+I am a PhD Candidate in Economics at Tilburg University. I am an Applied Microeconomist interested in Political Economy, Economic History, and Media Economics. My supervisors are [David Schindler](https://david-schindler.de/), [Mery Ferrando](https://meryferrando.com/), and [Anna Salomons](https://www.tilburguniversity.edu/staff/a-m-salomons)
   
 {style="text-align: justify;"}
