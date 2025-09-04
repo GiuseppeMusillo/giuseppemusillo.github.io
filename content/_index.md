@@ -78,19 +78,19 @@ sections:
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
   - block: markdown
-    id: teaching
-    content:
-      title: Teaching
-      subtitle: Teaching Assistant at Tilburg University 
-      text: >
-          - Public Sector Economics (B.Sc. in Economics), 2024 - Present.
-          - Econometrics (B.Sc. in Economics), 2022 - Present.
-          - Microeconomics: Markets and Games (B.Sc. Entrepreneurship and Business Innovation), 2022 - 2023.
-          - Skills: Visualizing Data & Writing for Policy Makers (B.Sc. in Economics), 2022 - 2023.
-          - BSc Economics Thesis Supervision
-    design:
-      columns: '2'
-      view: compact
+  id: teaching
+  content:
+    title: Teaching
+    subtitle: Teaching Assistant at Tilburg University 
+    text: |
+      • **Public Sector Economics** (B.Sc. in Economics), 2024 - Present
+      • **Econometrics** (B.Sc. in Economics), 2022 - Present  
+      • **Microeconomics: Markets and Games** (B.Sc. Entrepreneurship and Business Innovation), 2022 - 2023
+      • **Skills: Visualizing Data & Writing for Policy Makers** (B.Sc. in Economics), 2022 - 2023
+      • **BSc Economics Thesis Supervision**
+  design:
+    columns: '2'
+    view: compact
   - block: contact
     id: contact
     content:
