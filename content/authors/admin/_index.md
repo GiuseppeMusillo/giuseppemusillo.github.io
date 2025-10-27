@@ -18,12 +18,12 @@ organizations:
     url: https://www.tilburguniversity.edu/about/schools/economics-and-management/organization/departments/economics
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am an Applied Microeconomist interested in Political Economy, Economic History, and Media Economics.
+bio: I am an Applied Microeconomist interested in Political Economy, Labor Economics, and Media Economics.
 
 # Interests to show in About widget
 interests:
-  - Applied Microeconomics
   - Political Economy
+  - Labor Economics
   - Media Economics
   - Economic History
 
@@ -70,6 +70,7 @@ social:
 highlight_name: true
 ---
 
-I am a PhD Candidate in Economics at Tilburg University. I am an Applied Microeconomist interested in Political Economy, Economic History, and Media Economics. My supervisors are [David Schindler](https://david-schindler.de/), [Mery Ferrando](https://meryferrando.com/), and [Anna Salomons](https://www.tilburguniversity.edu/staff/a-m-salomons)
-  
-{style="text-align: justify;"}
+I am a PhD Candidate in Economics at Tilburg University. I am an Applied Microeconomist interested in Political Economy, Economic History, and Media Economics. My supervisors are [David Schindler](https://david-schindler.de/), [Mery Ferrando](https://meryferrando.com/), and [Anna Salomons](https://www.tilburguniversity.edu/staff/a-m-salomons). 
+
+I am currently visiting Universitat Pompeu Fabra, hosted by Dr. Marta Reynal-Querol.
+
