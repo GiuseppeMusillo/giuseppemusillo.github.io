@@ -1,26 +1,40 @@
 # Classic Academic Blue Theme
-# A professional, scholarly color scheme with blue tones
+name = "Academic Blue"
 
-[light]
-  # Primary accent color - deep academic blue
-  primary = "#1565C0"
+# Is theme light or dark?
+light = true
 
-  # Secondary accent
-  secondary = "#1976D2"
+# Primary accent color - deep academic blue
+primary = "#1565c0"
 
-  # Background colors
-  background = "#FAFAFA"
-  home_section_odd = "#FFFFFF"
-  home_section_even = "#F5F7FA"
+# Menu styling
+menu_primary = "#fff"
+menu_text = "#2c3e50"
+menu_text_active = "#1565c0"
+menu_title = "#1a252f"
+
+# Home sections - alternating backgrounds
+home_section_odd = "rgb(255, 255, 255)"
+home_section_even = "rgb(245, 247, 250)"
+
+# Links
+link = "#1565c0"
+link_hover = "#0d47a1"
 
 [dark]
   # Lighter blue for dark mode visibility
-  primary = "#64B5F6"
+  primary = "#64b5f6"
 
-  # Secondary accent
-  secondary = "#90CAF9"
+  # Menu styling for dark mode
+  menu_primary = "#1a1a2e"
+  menu_text = "#e0e0e0"
+  menu_text_active = "#64b5f6"
+  menu_title = "#ffffff"
 
-  # Dark background with subtle navy tones
-  background = "#1a1a2e"
+  # Dark background sections
   home_section_odd = "#1a1a2e"
   home_section_even = "#16213e"
+
+  # Links for dark mode
+  link = "#64b5f6"
+  link_hover = "#90caf9"
