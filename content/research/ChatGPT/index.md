@@ -1,6 +1,6 @@
 ---
 title: "Labor Market Signals: The Role of Large Language Models"
-subtitle: "*Revise and Resubmit, Journal of Labor Economics*"
+subtitle: "*Accepted, Journal of Labor Economics*"
 authors:
 - Kian Abbas Nejad
 - admin
