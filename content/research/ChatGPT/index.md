@@ -27,5 +27,5 @@ links:
   - name: SSRN
     url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5185035"
 
-url_pdf: "uploads/Chat_GPT_AMWZ_Mar25.pdf"
+url_pdf: "https://www.dropbox.com/scl/fi/s1g2qt3fps91ndijeiprp/Chat_GPT_AMWX_Jan26.pdf?rlkey=d5dkayqlndnjjuq3agac7mt0r&st=qu455l30&dl=1"
 ---

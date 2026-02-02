@@ -22,7 +22,7 @@ links:
   - name: CEPR Discussion Paper
     url: 'https://cepr.org/publications/dp18207'
 url_code: ''
-url_pdf: 'uploads/Superman_WorkingPaper.pdf'
+url_pdf: 'https://www.dropbox.com/scl/fi/e5fpjvv689gb8bqkzfphg/Superman_AAGMS_Oct25.pdf?rlkey=b9luycvqil1tgtd2k4yp6fxj8&st=60pkzgfg&dl=1'
 url_slides: ''
 url_video: ''
 slides: ""
