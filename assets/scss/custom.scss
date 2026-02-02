@@ -1,0 +1,90 @@
+/*
+ * Classic Academic Blue Theme - Custom Styling
+ * Serif typography with blue accent colors
+ */
+
+/* Import Google Fonts - Playfair Display for headings, Source Serif Pro for body */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Source+Serif+Pro:wght@400;600&display=swap');
+
+/* Typography */
+body {
+  font-family: 'Source Serif Pro', Georgia, 'Times New Roman', serif;
+}
+
+h1, h2, h3, h4, h5, h6,
+.article-title,
+.section-heading h1 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 600;
+}
+
+/* Primary accent color - Academic Blue */
+:root {
+  --color-primary: #1565c0;
+  --color-primary-rgb: 21, 101, 192;
+}
+
+/* Links */
+a {
+  color: #1565c0;
+}
+
+a:hover {
+  color: #0d47a1;
+}
+
+/* Buttons */
+.btn-primary,
+.btn-outline-primary:hover {
+  background-color: #1565c0;
+  border-color: #1565c0;
+}
+
+.btn-outline-primary {
+  color: #1565c0;
+  border-color: #1565c0;
+}
+
+/* Navigation active link */
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #1565c0;
+}
+
+/* Section headings */
+.section-heading h1 {
+  color: #1a252f;
+}
+
+/* Card styling */
+.card {
+  border: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+/* Article metadata */
+.article-metadata {
+  font-family: 'Source Serif Pro', Georgia, serif;
+}
+
+/* Dark mode adjustments */
+.dark {
+  a {
+    color: #64b5f6;
+  }
+
+  a:hover {
+    color: #90caf9;
+  }
+
+  .btn-primary,
+  .btn-outline-primary:hover {
+    background-color: #1976d2;
+    border-color: #1976d2;
+  }
+
+  .btn-outline-primary {
+    color: #64b5f6;
+    border-color: #64b5f6;
+  }
+}
