@@ -1,0 +1,16 @@
+# Classic Serif Typography
+# Elegant academic typography with Playfair Display headings
+
+name = "Classic Serif"
+
+# Heading font - elegant serif for titles
+[heading_font]
+  name = "Playfair Display"
+
+# Body font - readable serif for content
+[body_font]
+  name = "Source Serif Pro"
+
+# Monospace font for code
+[mono_font]
+  name = "JetBrains Mono"

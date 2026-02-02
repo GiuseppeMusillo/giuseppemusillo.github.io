@@ -1,0 +1,26 @@
+# Classic Academic Blue Theme
+# A professional, scholarly color scheme with blue tones
+
+[light]
+  # Primary accent color - deep academic blue
+  primary = "#1565C0"
+
+  # Secondary accent
+  secondary = "#1976D2"
+
+  # Background colors
+  background = "#FAFAFA"
+  home_section_odd = "#FFFFFF"
+  home_section_even = "#F5F7FA"
+
+[dark]
+  # Lighter blue for dark mode visibility
+  primary = "#64B5F6"
+
+  # Secondary accent
+  secondary = "#90CAF9"
+
+  # Dark background with subtle navy tones
+  background = "#1a1a2e"
+  home_section_odd = "#1a1a2e"
+  home_section_even = "#16213e"
