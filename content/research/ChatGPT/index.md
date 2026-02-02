@@ -29,3 +29,7 @@ links:
 
 url_pdf: "https://www.dropbox.com/scl/fi/s1g2qt3fps91ndijeiprp/Chat_GPT_AMWX_Jan26.pdf?rlkey=d5dkayqlndnjjuq3agac7mt0r&st=qu455l30&dl=1"
 ---
+
+**Abstract**
+
+Large Language Models (LLMs) are transforming the labor market, including hiring decisions. This paper examines their impact on the signals job-seekers send to potential employers through two field experiments focusing on cover letters. We find that LLMs enhance signal quality, especially benefiting lower-quality applicants, yet these gains do not boost interview invitations because they are concentrated in standardized, less influential sections of the cover letter. When recruiters learn of LLM usage, they place greater value on high-quality, human-crafted letters. Hence, LLMs reduce the informativeness of signals, potentially increasing inefficiencies in labor market matching as estimated by a calibrated structural model.
