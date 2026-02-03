@@ -1,5 +1,5 @@
 ---
-title: "Samplers, Skills, and Creativity"
+title: "The Sound of Automation: Technology and Creative Labor"
 summary: 
 tags:
 date: '2024-09-16T00:00:00Z'
