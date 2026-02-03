@@ -9,7 +9,7 @@ appearance:
   theme_day: minimal
   theme_night: minimal
   font: minimal
-  font_size: M
+  font_size: L
 
 # SEO
 
@@ -18,7 +18,7 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'Giuseppe Musillo - PhD Candidate in Economics at Tilburg University. Research in Political Economy, Labor Economics, and Media Economics.'
+    description: ''
     twitter: 'g_musillo'
   analytics:
     google_analytics: ''
@@ -45,7 +45,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Giuseppe Musillo. This work is licensed under {license}'
+    notice: '© {year} Me. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false
@@ -70,7 +70,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/GiuseppeMusillo/giuseppemusillo.github.io'
+    url: 'https://github.com/<username>/<repository>'
     content_dir: content
     branch: main
   avatar:

@@ -64,7 +64,7 @@ social:
     link: https://www.linkedin.com/in/giuseppe-musillo-7b3983142/
   - icon: cv
     icon_pack: ai
-    link: https://www.dropbox.com/scl/fi/ep2g78zlei81xgwdko5oe/CV_Musillo.pdf?rlkey=3yca1yhlcd9fp2pkkqbt23ev2&st=hspqvfxx&dl=1
+    link: https://www.dropbox.com/scl/fi/ep2g78zlei81xgwdko5oe/CV_Musillo.pdf?rlkey=3yca1yhlcd9fp2pkkqbt23ev2&st=hspqvfxx&raw=1
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
