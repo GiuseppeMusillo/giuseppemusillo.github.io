@@ -13,7 +13,7 @@ abstract: "Large Language Models (LLMs) are transforming the labor market, inclu
 summary: "Two field experiments show LLMs improve cover-letter signal quality especially for weaker applicants but do not increase interview invitations. Disclosure of LLM use shifts recruiter valuation toward high-quality human writing, reducing signal informativeness and potentially worsening matching efficiency."
 
 tags: ["LLMs", "Hiring", "Field experiment", "Signaling"]
-date: "2024-03-15T00:00:00Z"
+date: "2025-05-01T00:00:00Z"
 
 external_link: ""
 
