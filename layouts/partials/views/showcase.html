@@ -53,6 +53,14 @@
         {{ end }}
       </div>
       {{ end }}
+
+      {{ with $item.Params.awards }}
+      <div style="margin-top: 0.5rem; font-size: 0.85rem;">
+        {{ range . }}
+        <div>🏆 <strong>{{ .name }}</strong>, {{ .venue }}</div>
+        {{ end }}
+      </div>
+      {{ end }}
       
       {{ with $item.Params.abstract }}
       {{ $abstract_id := printf "abstract_%s" (replace $item.File.Path "/" "_") }}
