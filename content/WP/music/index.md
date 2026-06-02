@@ -5,18 +5,17 @@ tags:
 date: '2024-09-16T00:00:00Z'
 
 presentations:
-  - year: 2026
-    venues:
-      - UPF Student Seminar
-      - Applied Lunch (UPF)
-      - Internal Workshop (Tilburg University)
-      - 4th Milan PhD Economics Workshop (Bocconi)
-      - 11th Monash-Paris-Warwick-Zurich-CEPR Text-As-Data Workshop
-      - 19th Workshop on Social Economy for Young Economists (University of Bologna)
-      - Warwick 14th PhD Conference
-      - 2nd EUI PhD Conference
-      - ENTER Jamboree (UC3M)
-      - 2026 Venice Summer Institute
+  - UPF Student Seminar
+  - Applied Lunch (UPF)
+  - Internal Workshop (Tilburg University)
+  - 4th Milan PhD Economics Workshop (Bocconi)
+  - 11th Monash-Paris-Warwick-Zurich-CEPR Text-As-Data Workshop
+  - 19th Workshop on Social Economy for Young Economists (University of Bologna)
+  - Warwick 14th PhD Conference
+  - 2nd EUI PhD Conference
+  - ENTER Jamboree (UC3M)
+  - 2026 Venice Summer Institute
+  - AYEW Labor Economics Workshop
 
 external_link: ''
 
