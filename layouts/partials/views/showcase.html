@@ -29,7 +29,6 @@
         {{ $item.Title }}
       </div>
       
-      <!-- Add subtitle display here -->
       {{ with $item.Params.subtitle }}
       <div class="article-subtitle" style="font-style: italic; margin-top: 0.25rem; margin-bottom: 0.5rem;">
         {{ . | markdownify }}
@@ -55,7 +54,6 @@
       </div>
       {{ end }}
       
-      <!-- Add abstract toggle button and content -->
       {{ with $item.Params.abstract }}
       {{ $abstract_id := printf "abstract_%s" (replace $item.File.Path "/" "_") }}
       <div style="margin-top: 0.75rem; margin-bottom: 0.75rem;">
@@ -126,6 +124,17 @@
           <a class="btn btn-outline-secondary btn-page-header btn-sm" href="{{ .url }}" target="_blank" rel="noopener">
             {{ .name }}
           </a>
+        {{ end }}
+      </div>
+      {{ end }}
+
+      {{ with $item.Params.presentations }}
+      <div style="margin-top: 0.5rem; font-size: 0.85rem;">
+        <span style="font-weight: 600;">Presentations:</span>
+        {{ range . }}
+        <div style="margin-top: 0.15rem;">
+          <strong>{{ .year }}:</strong> {{ delimit .venues ", " }}
+        </div>
         {{ end }}
       </div>
       {{ end }}
