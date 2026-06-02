@@ -118,6 +118,18 @@
           </a>
         {{ end }}
       </div>
+
+      {{ with $item.Params.media_links }}
+      <div style="margin-top: 0.5rem;">
+        <span style="font-size: 0.85rem; font-weight: 600; margin-right: 0.4rem;">Media coverage:</span>
+        {{ range . }}
+          <a class="btn btn-outline-secondary btn-page-header btn-sm" href="{{ .url }}" target="_blank" rel="noopener">
+            {{ .name }}
+          </a>
+        {{ end }}
+      </div>
+      {{ end }}
+
     </div>
   </div>
 </div>
