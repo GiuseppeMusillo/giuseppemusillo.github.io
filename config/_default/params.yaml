@@ -45,12 +45,9 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Giuseppe Musillo'
     license:
-      enable: true
-      allow_derivatives: false
-      share_alike: true
-      allow_commercial: false
+      enable: false
 
 # Localization
 
@@ -115,5 +112,4 @@ extensions:
 # Security
 
 security:
-  # Allow frame for embedding speaker notes in slides
   allow_frame: true
