@@ -47,16 +47,16 @@ social:
   - icon: envelope
     icon_pack: fas
     link: 'mailto:g.musillo@tilburguniversity.edu'
-  - icon: twitter
+  - icon: x-twitter
     icon_pack: fab
     link: https://twitter.com/g_musillo
-    label: Follow me on Twitter
+    label: Follow me on X
     display:
       header: true
   - icon: github
     icon_pack: fab
     link: https://github.com/GiuseppeMusillo
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
+  - icon: graduation-cap
     icon_pack: fas
     link: https://scholar.google.com/citations?user=LAtAji0AAAAJ&hl=en&authuser=1
   - icon: linkedin
@@ -71,4 +71,3 @@ highlight_name: true
 ---
 
 I am a PhD Candidate in Economics at Tilburg University. I am an Applied Microeconomist interested in Labor Economics, Media Economics, Political Economy, and Economic History. My supervisors are [David Schindler](https://david-schindler.de/), [Mery Ferrando](https://meryferrando.com/), and [Anna Salomons](https://www.tilburguniversity.edu/staff/a-m-salomons).
-
