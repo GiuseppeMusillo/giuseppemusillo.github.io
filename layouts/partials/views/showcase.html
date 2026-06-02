@@ -6,10 +6,8 @@
   {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
 {{ end }}
 
-<!-- Responsive card with flexible width -->
 <div class="card-simple view-showcase" style="width: 100%; margin: 0 auto;">
   <div class="row">
-    <!-- Left column for image (if available) -->
     {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
     {{ if $resource }}
     <div class="col-md-4">
@@ -19,8 +17,6 @@
              class="article-banner" loading="lazy" style="max-width: 100%; max-height: 100%; object-fit: contain;">
       </div>
     </div>
-    
-    <!-- Right column for content -->
     <div class="col-md-8">
     {{ else }}
     <div class="col-md-12">
@@ -28,13 +24,13 @@
       <div class="section-subheading article-title mb-1 mt-3">
         {{ $item.Title }}
       </div>
-      
+
       {{ with $item.Params.subtitle }}
       <div class="article-subtitle" style="font-style: italic; margin-top: 0.25rem; margin-bottom: 0.5rem;">
         {{ . | markdownify }}
       </div>
       {{ end }}
-      
+
       {{ with $item.Params.authors }}
       <div class="article-metadata">
         <strong>Authors:</strong>
@@ -53,12 +49,12 @@
         {{ end }}
       </div>
       {{ end }}
-      
+
       {{ with $item.Params.abstract }}
       {{ $abstract_id := printf "abstract_%s" (replace $item.File.Path "/" "_") }}
       <div style="margin-top: 0.75rem; margin-bottom: 0.75rem;">
-        <button id="btn_{{ $abstract_id }}" class="btn btn-outline-primary btn-sm" 
-                onclick="document.getElementById('{{ $abstract_id }}').style.display = (document.getElementById('{{ $abstract_id }}').style.display === 'none') ? 'block' : 'none'; this.textContent = (document.getElementById('{{ $abstract_id }}').style.display === 'none') ? 'Show Abstract' : 'Hide Abstract';">
+        <button id="btn_{{ $abstract_id }}" class="btn btn-outline-primary btn-sm"
+                onclick="document.getElementById('{{ $abstract_id }}').style.display=(document.getElementById('{{ $abstract_id }}').style.display==='none')?'block':'none';this.textContent=(document.getElementById('{{ $abstract_id }}').style.display==='none')?'Show Abstract':'Hide Abstract';">
           Show Abstract
         </button>
         <div id="{{ $abstract_id }}" style="display: none; margin-top: 0.75rem;">
@@ -68,52 +64,22 @@
         </div>
       </div>
       {{ end }}
-      
+
       <div class="btn-links">
         {{ if $item.Params.url_pdf }}
-          <a class="btn btn-outline-primary btn-page-header btn-sm" href="{{ $item.Params.url_pdf }}" target="_blank" rel="noopener">
-            PDF
-          </a>
+          <a class="btn btn-outline-primary btn-page-header btn-sm" href="{{ $item.Params.url_pdf }}" target="_blank" rel="noopener">PDF</a>
         {{ end }}
         {{ if $item.Params.url_code }}
-          <a class="btn btn-outline-primary btn-page-header btn-sm" href="{{ $item.Params.url_code }}" target="_blank" rel="noopener">
-            Code
-          </a>
-        {{ end }}
-        {{ if $item.Params.url_dataset }}
-          <a class="btn btn-outline-primary btn-page-header btn-sm" href="{{ $item.Params.url_dataset }}" target="_blank" rel="noopener">
-            Dataset
-          </a>
-        {{ end }}
-        {{ if $item.Params.url_poster }}
-          <a class="btn btn-outline-primary btn-page-header btn-sm" href="{{ $item.Params.url_poster }}" target="_blank" rel="noopener">
-            Poster
-          </a>
-        {{ end }}
-        {{ if $item.Params.url_project }}
-          <a class="btn btn-outline-primary btn-page-header btn-sm" href="{{ $item.Params.url_project }}" target="_blank" rel="noopener">
-            Project
-          </a>
+          <a class="btn btn-outline-primary btn-page-header btn-sm" href="{{ $item.Params.url_code }}" target="_blank" rel="noopener">Code</a>
         {{ end }}
         {{ if $item.Params.url_slides }}
-          <a class="btn btn-outline-primary btn-page-header btn-sm" href="{{ $item.Params.url_slides }}" target="_blank" rel="noopener">
-            Slides
-          </a>
-        {{ end }}
-        {{ if $item.Params.url_source }}
-          <a class="btn btn-outline-primary btn-page-header btn-sm" href="{{ $item.Params.url_source }}" target="_blank" rel="noopener">
-            Source
-          </a>
+          <a class="btn btn-outline-primary btn-page-header btn-sm" href="{{ $item.Params.url_slides }}" target="_blank" rel="noopener">Slides</a>
         {{ end }}
         {{ if $item.Params.url_video }}
-          <a class="btn btn-outline-primary btn-page-header btn-sm" href="{{ $item.Params.url_video }}" target="_blank" rel="noopener">
-            Video
-          </a>
+          <a class="btn btn-outline-primary btn-page-header btn-sm" href="{{ $item.Params.url_video }}" target="_blank" rel="noopener">Video</a>
         {{ end }}
         {{ range $item.Params.links }}
-          <a class="btn btn-outline-primary btn-page-header btn-sm" href="{{ .url }}" target="_blank" rel="noopener">
-            {{ .name }}
-          </a>
+          <a class="btn btn-outline-primary btn-page-header btn-sm" href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>
         {{ end }}
       </div>
 
@@ -121,23 +87,28 @@
       <div style="margin-top: 0.5rem;">
         <span style="font-size: 0.85rem; font-weight: 600; margin-right: 0.4rem;">Media coverage:</span>
         {{ range . }}
-          <a class="btn btn-outline-secondary btn-page-header btn-sm" href="{{ .url }}" target="_blank" rel="noopener">
-            {{ .name }}
-          </a>
+          <a class="btn btn-outline-secondary btn-page-header btn-sm" href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>
         {{ end }}
       </div>
       {{ end }}
 
       {{ with $item.Params.awards }}
-      <div style="margin-top: 0.5rem; font-size: 0.85rem;">
-        {{ . }}
-      </div>
+      <div style="margin-top: 0.5rem; font-size: 0.85rem;">{{ . }}</div>
       {{ end }}
 
       {{ with $item.Params.presentations }}
-      <div style="margin-top: 0.5rem; font-size: 0.85rem;">
+      {{ $total := len . }}
+      {{ $pres_id := printf "pres_%s" (replace $item.File.Path "/" "_") }}
+      <div style="margin-top: 0.9rem; font-size: 0.85rem;">
         <span style="font-weight: 600;">Presentations:</span>
-        {{ delimit . ", " }}
+        <span id="pres_short_{{ $pres_id }}">{{ delimit (first 3 .) ", " }}{{ if gt $total 3 }} ...{{ end }}</span>
+        {{ if gt $total 3 }}
+        <span id="pres_full_{{ $pres_id }}" style="display:none;">{{ delimit . ", " }}</span>
+        <button class="btn btn-link btn-sm" style="padding:0; font-size:0.85rem; vertical-align:baseline;"
+                onclick="var s=document.getElementById('pres_short_{{ $pres_id }}');var f=document.getElementById('pres_full_{{ $pres_id }}');if(f.style.display==='none'){f.style.display='inline';s.style.display='none';this.textContent='Show less';}else{f.style.display='none';s.style.display='inline';this.textContent='Show more';}">
+          Show more
+        </button>
+        {{ end }}
       </div>
       {{ end }}
 
