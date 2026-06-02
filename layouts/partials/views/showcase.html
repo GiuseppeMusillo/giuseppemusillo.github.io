@@ -14,10 +14,10 @@
     {{ if $resource }}
     <div class="col-md-4">
       {{ $image := $resource.Resize "400x webp" }}
-      <a href="{{ $link }}" {{ $target }} aria-label="{{ $item.Title }}" style="display: flex; justify-content: center; align-items: center; height: 100%; overflow: hidden;">
+      <div style="display: flex; justify-content: center; align-items: center; height: 100%; overflow: hidden;">
         <img src="{{ $image.RelPermalink }}" alt="{{ $item.Title }}" width="{{ $image.Width }}" height="{{ $image.Height }}"
              class="article-banner" loading="lazy" style="max-width: 100%; max-height: 100%; object-fit: contain;">
-      </a>
+      </div>
     </div>
     
     <!-- Right column for content -->
@@ -26,7 +26,7 @@
     <div class="col-md-12">
     {{ end }}
       <div class="section-subheading article-title mb-1 mt-3">
-        <a href="{{ $link }}" {{ $target }}>{{ $item.Title }}</a>
+        {{ $item.Title }}
       </div>
       
       <!-- Add subtitle display here -->
