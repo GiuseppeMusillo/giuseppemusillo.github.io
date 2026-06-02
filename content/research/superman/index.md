@@ -28,7 +28,6 @@ presentations:
       - Empirical Student Seminar (LMU)
       - Media Bias Workshop (Cologne)
       - ENTER Jamboree (ULB)
-      - mEETing (Tilburg University)
       - Applied Micro Chat (Tilburg University)
       - MPE Brown-bag Research Seminar (Maastricht University)
   - year: 2023
