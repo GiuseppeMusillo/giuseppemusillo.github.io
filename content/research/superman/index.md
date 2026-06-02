@@ -23,19 +23,15 @@ media_links:
   - name: VoxEU
     url: 'https://cepr.org/voxeu/columns/media-narratives-racial-equality-how-superman-helped-pave-ground-civil-rights'
 presentations:
-  - year: 2024
-    venues:
-      - Empirical Student Seminar (LMU)
-      - Media Bias Workshop (Cologne)
-      - ENTER Jamboree (ULB)
-      - Applied Micro Chat (Tilburg University)
-      - MPE Brown-bag Research Seminar (Maastricht University)
-  - year: 2023
-    venues:
-      - Spanish Economic Association (Salamanca)
-      - Applied Seminar (Universitat Autonoma de Barcelona)
-      - Internal Workshop (Tilburg University)
-      - Inaugural Essex PhD Conference in Applied Economics (University of Essex)
+  - Empirical Student Seminar (LMU)
+  - Media Bias Workshop (Cologne)
+  - ENTER Jamboree (ULB)
+  - Applied Micro Chat (Tilburg University)
+  - MPE Brown-bag Research Seminar (Maastricht University)
+  - Spanish Economic Association (Salamanca)
+  - Applied Seminar (Universitat Autonoma de Barcelona)
+  - Internal Workshop (Tilburg University)
+  - Inaugural Essex PhD Conference in Applied Economics (University of Essex)
 url_code: ''
 url_pdf: 'https://www.dropbox.com/scl/fi/e5fpjvv689gb8bqkzfphg/Superman_AAGMS_Oct25.pdf?rlkey=b9luycvqil1tgtd2k4yp6fxj8&st=60pkzgfg&raw=1'
 url_slides: ''
