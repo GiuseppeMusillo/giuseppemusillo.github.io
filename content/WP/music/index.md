@@ -4,6 +4,12 @@ summary:
 tags:
 date: '2024-09-16T00:00:00Z'
 
+awards:
+  - name: Best Paper Award
+    venue: 14th Warwick Economics PhD Conference
+  - name: Best Paper Award
+    venue: 19th Workshop on Social Economy for Young Economists
+
 presentations:
   - UPF Student Seminar
   - AYEW Labor Economics Workshop
