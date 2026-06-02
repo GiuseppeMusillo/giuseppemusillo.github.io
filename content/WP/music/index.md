@@ -6,6 +6,7 @@ date: '2024-09-16T00:00:00Z'
 
 presentations:
   - UPF Student Seminar
+  - AYEW Labor Economics Workshop
   - Applied Lunch (UPF)
   - Internal Workshop (Tilburg University)
   - 4th Milan PhD Economics Workshop (Bocconi)
@@ -15,7 +16,6 @@ presentations:
   - 2nd EUI PhD Conference
   - ENTER Jamboree (UC3M)
   - 2026 Venice Summer Institute
-  - AYEW Labor Economics Workshop
 
 external_link: ''
 
