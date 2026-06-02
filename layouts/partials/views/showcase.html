@@ -131,11 +131,7 @@
       {{ with $item.Params.presentations }}
       <div style="margin-top: 0.5rem; font-size: 0.85rem;">
         <span style="font-weight: 600;">Presentations:</span>
-        {{ range . }}
-        <div style="margin-top: 0.15rem;">
-          <strong>{{ .year }}:</strong> {{ delimit .venues ", " }}
-        </div>
-        {{ end }}
+        {{ delimit . ", " }}
       </div>
       {{ end }}
 
