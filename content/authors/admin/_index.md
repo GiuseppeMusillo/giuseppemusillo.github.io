@@ -47,10 +47,10 @@ social:
   - icon: envelope
     icon_pack: fas
     link: 'mailto:g.musillo@tilburguniversity.edu'
-  - icon: x-twitter
+  - icon: twitter
     icon_pack: fab
     link: https://twitter.com/g_musillo
-    label: Follow me on X
+    label: Follow me on Twitter
     display:
       header: true
   - icon: github
