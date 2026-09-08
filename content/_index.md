@@ -43,12 +43,40 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
   - block: portfolio
-    id: research
+    id: jmp
     content:
-      title: Research
+      title: Job Market Paper
       filters:
         folders:
-          - research
+          - jmp
+    design:
+      columns: '1'
+      view: showcase
+      flip_alt_rows: false
+    params:
+      view_params:
+        show_authors: true
+  - block: portfolio
+    id: publications
+    content:
+      title: Publications
+      filters:
+        folders:
+          - publications
+    design:
+      columns: '1'
+      view: showcase
+      flip_alt_rows: false
+    params:
+      view_params:
+        show_authors: true
+  - block: portfolio
+    id: working-papers
+    content:
+      title: Working Papers
+      filters:
+        folders:
+          - working-papers
     design:
       columns: '1'
       view: showcase
@@ -63,13 +91,13 @@ sections:
       filters:
         folders:
           - WP
-      # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
     design:
-      # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
       view: showcase
-      # For Showcase view, flip alternate rows?
       flip_alt_rows: false
+    params:
+      view_params:
+        show_authors: true
   - block: markdown
     id: teaching
     content:
