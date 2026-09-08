@@ -46,7 +46,7 @@ presentations:
   - Economic Insights for Creating Inclusive Labor Markets (University of Tokyo)
   - 28th Colloquium on Personnel Economics (Rotterdam)
 
-url_pdf: "https://www.dropbox.com/scl/fi/s1g2qt3fps91ndijeiprp/Chat_GPT_AMWX_Jan26.pdf?rlkey=d5dkayqlndnjjuq3agac7mt0r&st=qu455l30&raw=1"
+url_pdf: "/uploads/llm-labor-signals.pdf"
 ---
 
 **Abstract**

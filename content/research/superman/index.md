@@ -33,7 +33,7 @@ presentations:
   - Media Bias Workshop (Cologne)
   - Empirical Student Seminar (LMU)
 url_code: ''
-url_pdf: 'https://www.dropbox.com/scl/fi/e5fpjvv689gb8bqkzfphg/Superman_AAGMS_Oct25.pdf?rlkey=b9luycvqil1tgtd2k4yp6fxj8&st=60pkzgfg&raw=1'
+url_pdf: '/uploads/media-civil-rights.pdf'
 url_slides: ''
 url_video: ''
 slides: ""
