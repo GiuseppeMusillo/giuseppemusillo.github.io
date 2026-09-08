@@ -36,6 +36,8 @@ media_links:
     url: "https://www.esgcarriere.nl/artikel/ai-gegenereerde-sollicitatiebrieven-wel-beter-maar-de-kans-op-een-baan-niet-groter"
   - name: HR Praktijk
     url: "https://www.hrpraktijk.nl/werving-selectie/ai/ai-maakt-sollicitatiebrieven-beter-maar-verslechtert-de-match/"
+  - name: Legal in Finance
+    url: "https://www.legalinfinance.nl/artikel/ai-gegenereerde-sollicitatiebrieven-wel-beter-maar-de-kans-op-een-baan-niet-groter"
   - name: Quest
     url: "https://www.quest.nl/maatschappij/economie/a70527466/sollicitatiebrief-ai-schrijven-verlaagt-je-kansen/"
   - name: Tilburg University
@@ -60,6 +62,7 @@ Large Language Models (LLMs) are transforming the labor market, including hiring
 - [CHRO](https://chro.nl/artikel/onderzoek-ai-verbetert-sollicitatiebrieven-maar-vergroot-kans-op-slechte-match-voor-werkgevers/)
 - [ESG Carrière](https://www.esgcarriere.nl/artikel/ai-gegenereerde-sollicitatiebrieven-wel-beter-maar-de-kans-op-een-baan-niet-groter)
 - [HR Praktijk](https://www.hrpraktijk.nl/werving-selectie/ai/ai-maakt-sollicitatiebrieven-beter-maar-verslechtert-de-match/)
+- [Legal in Finance](https://www.legalinfinance.nl/artikel/ai-gegenereerde-sollicitatiebrieven-wel-beter-maar-de-kans-op-een-baan-niet-groter)
 - [Quest](https://www.quest.nl/maatschappij/economie/a70527466/sollicitatiebrief-ai-schrijven-verlaagt-je-kansen/)
 - [Tilburg University](https://www.tilburguniversity.edu/nl/actueel/persberichten/ai-maakt-sollicitatiebrieven-beter-verslechtert-de-match)
 - [VNO-NCW Brabant Zeeland](https://www.vnoncwbrabantzeeland.nl/ai-maakt-sollicitatiebrieven-beter-maar-verslechtert-de-match-op-de-arbeidsmarkt/)

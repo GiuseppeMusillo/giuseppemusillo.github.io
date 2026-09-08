@@ -98,6 +98,20 @@ sections:
     params:
       view_params:
         show_authors: true
+  - block: portfolio
+    id: other-writings
+    content:
+      title: Other Writings
+      filters:
+        folders:
+          - other-writings
+    design:
+      columns: '1'
+      view: showcase
+      flip_alt_rows: false
+    params:
+      view_params:
+        show_authors: true
   - block: markdown
     id: teaching
     content:
