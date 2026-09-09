@@ -18,7 +18,7 @@ organizations:
     url: https://www.tilburguniversity.edu/about/schools/economics-and-management/organization/departments/economics
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am an Applied Microeconomist interested in Labor Economics, Media Economics, Political Economy, and Economic History.
+bio: I am an Applied Microeconomist interested in Labor Economics, Media Economics, Political Economy, and Economic History. I am on the 2026-27 economics job market.
 
 # Interests to show in About widget
 interests:
