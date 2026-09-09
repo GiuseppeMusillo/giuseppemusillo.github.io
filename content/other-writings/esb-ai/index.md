@@ -21,16 +21,18 @@ links:
     url: "https://esb.nu/ai-maakt-solliciteren-makkelijker-maar-matching-moeilijker/"
 
 media_links:
-  - name: BNR
-    url: "https://www.bnr.nl/nieuws/tech-innovatie/10607241/ai-maakt-je-sollicitatiebrief-beter-maar-vergroot-niet-je-kans-op-een-baan"
-  - name: BusinessAM
-    url: "https://businessam.be/ai-helpt-werkzoekenden-solliciteren-maar-maakt-het-moeilijker-voor-werkgevers-om-talent-te-vinden"
+  - name: Reformatorisch Dagblad
+    url: "https://www.rd.nl/artikel/sollicitatiebrief-geschreven-met-chat-gpt-dat-vergroot-de-kans-dat-een-bedrijf-de-verkeerde-kandidaat-aanneemt"
   - name: HRMorgen
     url: "https://www.hrmorgen.nl/2026/08/ai-maakt-solliciteren-makkelijker-maar-dreigt-matching-te-verslechteren"
-  - name: Reformatorisch Dagblad
-    url: "https://www.rd.nl/artikel/1158679-sollicitatiebrief-geschreven-met-chatgpt-dat-vergroot-de-kans-dat-een-bedrijf-de-verkeerde-kandidaat-aanneemt"
+  - name: Legal in Finance
+    url: "https://www.legalinfinance.nl/artikel/ai-gegenereerde-sollicitatiebrieven-wel-beter-maar-de-kans-op-een-baan-niet-groter"
+  - name: BusinessAM
+    url: "https://businessam.be/ai-helpt-werkzoekenden-solliciteren-maar-maakt-het-moeilijker-voor-werkgevers-om-talent-te-vinden"
   - name: Trouw
     url: "https://www.trouw.nl/duurzaamheid-economie/sollicitatiebrief-geschreven-met-chatgpt-dat-vergroot-de-kans-dat-een-bedrijf-de-verkeerde-kandidaat-aanneemt~b4b2d3a2/"
+  - name: BNR
+    url: "https://www.bnr.nl/nieuws/tech-innovatie/10607241/ai-maakt-je-sollicitatiebrief-beter-maar-vergroot-niet-je-kans-op-een-baan"
 
 url_code: ''
 url_pdf: "/uploads/esb-llm-matching-english.pdf"
