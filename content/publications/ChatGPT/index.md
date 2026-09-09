@@ -49,6 +49,7 @@ presentations:
   - 28th Colloquium on Personnel Economics (Rotterdam)
 
 url_pdf: "/uploads/llm-labor-signals.pdf"
+url_slides: "/uploads/llm-labor-signals-slides.pdf"
 ---
 
 **Abstract**
