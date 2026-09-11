@@ -18,12 +18,11 @@ organizations:
     url: https://www.tilburguniversity.edu/about/schools/economics-and-management/organization/departments/economics
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am an Applied Microeconomist interested in Labor Economics, Media Economics, Political Economy, and Economic History. I am on the 2026-27 economics job market.
+bio: I am a PhD candidate in economics at Tilburg University. My research asks how technology changes creative work and how narratives change political behavior. I am on the 2026–27 economics job market.
 
 # Interests to show in About widget
 interests:
   - Labor Economics
-  - Media Economics
   - Political Economy
   - Economic History
 
@@ -70,6 +69,10 @@ social:
 highlight_name: true
 ---
 
-I am a PhD Candidate in Economics at Tilburg University. I am an Applied Microeconomist interested in Labor Economics, Media Economics, Political Economy, and Economic History. My supervisors are [David Schindler](https://david-schindler.de/), [Mery Ferrando](https://meryferrando.com/), and [Anna Salomons](https://www.tilburguniversity.edu/staff/a-m-salomons).
+I am a PhD candidate in economics at Tilburg University, expected to graduate in June 2027. I work in labor economics and political economy, with a focus on the economics of technology and the economics of media. My supervisors are [David Schindler](https://david-schindler.de/), [Mery Ferrando](https://meryferrando.com/), and [Anna Salomons](https://www.tilburguniversity.edu/staff/a-m-salomons). I have visited Universitat Pompeu Fabra and LMU Munich.
+
+My research asks how technology changes creative work and how narratives change political behavior. I study technologies that lower the expertise needed to create, such as digital samplers and large language models, and narratives that spread through mass media and personal networks. I use field experiments and newly assembled historical, textual, and audio data.
+
+My job market paper asks what happens when an expertise-leveling technology spreads through an industry. Studying digital sampling in music, I find that it did not just let individuals do more on their own: production teams added specialists, and the music began to sound different.
 
 **I am on the 2026–27 economics job market.**
