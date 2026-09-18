@@ -1,5 +1,5 @@
 ---
-title: "Law & Order and Social Capital"
+title: "State Repression, Trust, and Political Participation"
 subtitle: "(Draft available upon request)"
 authors:
 - Francesco Capozza
