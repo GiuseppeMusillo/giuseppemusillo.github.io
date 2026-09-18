@@ -1,5 +1,6 @@
 ---
 title: "Law & Order and Social Capital"
+subtitle: "(Draft available upon request)"
 authors:
 - Francesco Capozza
 - Matteo Giugovaz
