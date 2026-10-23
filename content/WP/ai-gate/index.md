@@ -1,6 +1,5 @@
 ---
 title: "AI at the Gate: Platform Answers and the Supply of News"
-subtitle: "(Draft available upon request)"
 authors:
 - admin
 - Till Wicker
