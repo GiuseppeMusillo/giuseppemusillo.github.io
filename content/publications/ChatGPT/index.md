@@ -1,6 +1,6 @@
 ---
 title: "Labor Market Signals: The Role of Large Language Models"
-subtitle: '*Accepted, Journal of Labor Economics*'
+subtitle: '*Journal of Labor Economics*, forthcoming'
 authors:
 - Kian Abbas Nejad
 - admin
@@ -24,6 +24,8 @@ image:
   focal_point: Smart
 
 links:
+  - name: Journal of Labor Economics
+    url: "https://doi.org/10.1086/744669"
   - name: CentER Working Paper
     url: "https://research.tilburguniversity.edu/en/publications/labor-market-signals-the-role-of-large-language-models"
   - name: SSRN
