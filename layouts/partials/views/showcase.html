@@ -22,7 +22,7 @@
     <div class="col-md-12">
     {{ end }}
       <div class="section-subheading article-title mb-1 mt-3">
-        {{ $item.Title }}
+        {{ if $item.Params.external_link }}<a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{ $item.Title }}</a>{{ else }}{{ $item.Title }}{{ end }}
       </div>
 
       {{ with $item.Params.subtitle }}

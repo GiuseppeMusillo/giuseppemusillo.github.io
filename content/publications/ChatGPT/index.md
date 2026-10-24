@@ -17,15 +17,13 @@ summary: "Two field experiments show LLMs improve cover-letter signal quality es
 tags: ["LLMs", "Hiring", "Field experiment", "Signaling"]
 date: "2025-05-01T00:00:00Z"
 
-external_link: ""
+external_link: "https://doi.org/10.1086/744669"
 
 image:
   caption: ""
   focal_point: Smart
 
 links:
-  - name: Journal of Labor Economics
-    url: "https://doi.org/10.1086/744669"
   - name: CentER Working Paper
     url: "https://research.tilburguniversity.edu/en/publications/labor-market-signals-the-role-of-large-language-models"
   - name: SSRN
