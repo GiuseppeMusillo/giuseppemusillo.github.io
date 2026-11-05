@@ -1,0 +1,9 @@
+{{/* Highwire Press citation_* tags for Google Scholar.
+     Renders only on pages whose front matter has a `citation:` map; every other page is unaffected. */}}
+{{ with .Params.citation }}
+  {{ with .title }}<meta name="citation_title" content="{{ . }}">{{ end }}
+  {{ range .authors }}<meta name="citation_author" content="{{ . }}">{{ end }}
+  {{ with .publication_date }}<meta name="citation_publication_date" content="{{ . }}">{{ end }}
+  {{ with .institution }}<meta name="citation_technical_report_institution" content="{{ . }}">{{ end }}
+  {{ with .pdf_url }}<meta name="citation_pdf_url" content="{{ . }}">{{ end }}
+{{ end }}
