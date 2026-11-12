@@ -18,9 +18,6 @@ citation:
   institution: "Tilburg University"
   pdf_url: "https://giuseppemusillo.github.io/uploads/musillo_jmp.pdf"
 
-# Home-page card title links to this page (see layouts/partials/views/showcase.html)
-link_page: true
-
 awards: "Received the 14th Warwick Economics PhD Conference and 19th Workshop on Social Economy for Young Economists Best Paper Awards"
 
 aliases:
@@ -39,7 +36,7 @@ presentations:
   - ENTER Jamboree (UC3M)
   - 2026 Venice Summer Institute
 
-external_link: ''
+external_link: '/uploads/musillo_jmp.pdf'
 
 image:
   caption: 
